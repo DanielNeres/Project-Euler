@@ -2,12 +2,12 @@
 
 int main(void){
     int soma = 0, numero;
-    for(numero = 0; soma < 1000; numero++){
+    for(numero = 0; soma < 1000 - numero; numero++){
         if(numero % 3 == 0){
             printf("%d\n", numero);
             soma += numero;
         }
-        if(numero % 5 == 0){
+        else if(numero % 5 == 0){
             printf("%d\n", numero);
             soma += numero;
         }
