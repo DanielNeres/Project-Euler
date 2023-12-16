@@ -1,9 +1,12 @@
-a = quantidade = 1000
+a = numero = 0; soma = 0
 
-while quantidade > 0:
-    if quantidade % 3 == 0:
-        print(quantidade)
+while soma < 1000:
+    if numero % 3 == 0:
+        print(numero)
+        soma += numero
         
-    if quantidade % 5 == 0:
-        print(quantidade)
-    quantidade -= 1
+    if numero % 5 == 0:
+        print(numero)
+        soma += numero
+    print(soma)
+    numero += 1
