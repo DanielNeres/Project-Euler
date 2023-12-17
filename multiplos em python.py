@@ -1,6 +1,6 @@
-numero = 0; soma = 0
+numero = 1; soma = 0
 
-while soma < 1000:
+while soma <= 1000 - numero:
     if numero % 3 == 0:
         print(numero)
         soma += numero
