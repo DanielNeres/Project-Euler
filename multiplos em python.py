@@ -9,4 +9,4 @@ while soma <= 1000 - numero:
         print(numero)
         soma += numero
     numero += 1
-print(soma)
+print("soma = ", soma)
