@@ -8,15 +8,15 @@ public class HelloWorld
 
             while (soma <= 1000 - numero){
                 if (numero % 3 == 0){
-                    Console.Writeline(numero);
+                    Console.WriteLine(numero);
                     soma += numero;
                     }
                 else if (numero % 5 == 0){
-                    Console.Writeline(numero);
+                    Console.WriteLine(numero);
                     soma += numero;
                     }
                 numero += 1;
                 }
-            Console.Writeline(soma);
+            Console.WriteLine(soma);
     }
 }
