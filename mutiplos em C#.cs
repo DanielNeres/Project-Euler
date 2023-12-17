@@ -7,16 +7,12 @@ public class HelloWorld
         int numero = 1, soma = 0;
 
             while (soma <= 1000 - numero){
-                if (numero % 3 == 0){
-                    Console.WriteLine(numero);
-                    soma += numero;
-                    }
-                else if (numero % 5 == 0){
+                if ((numero % 3 == 0) || (numero % 5 == 0)){
                     Console.WriteLine(numero);
                     soma += numero;
                     }
                 numero += 1;
                 }
-            Console.WriteLine(soma);
+            Console.WriteLine("soma = " + soma);
     }
 }
