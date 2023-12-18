@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-	unsigned long int numeroimprecao = 0, numeroanterior = 1, soma = 0; 
+	unsigned long int numeroimprecao = 1, numeroanterior = 1, soma = 0; 
 	for(;numeroimprecao <= 4000000;){	
 		printf("\n%li", numeroimprecao); 	
 		numeroimprecao += numeroanterior; 
