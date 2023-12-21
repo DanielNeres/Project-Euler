@@ -10,6 +10,9 @@ int main(){
                 soma += i;
             }
         }
+        if(soma % divisor == 0){
+            printf("%d\n", contador);
+        }
     }
     return 0;
 }
