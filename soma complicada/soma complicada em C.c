@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int contador = 20, divisor = 7, soma, i;
+    unsigned long long int contador = 20, divisor = 7, soma, i;
 
     for(; contador > 0; contador--){
         soma = 0;
