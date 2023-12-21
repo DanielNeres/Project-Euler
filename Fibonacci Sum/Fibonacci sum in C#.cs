@@ -15,6 +15,6 @@ public class FibonacciSum
 				soma += numeroimprecao;
 			}
 		}
-		Console.WriteLine("soma = " + soma);
+		Console.WriteLine("soma =" + soma);
 	}
 }
