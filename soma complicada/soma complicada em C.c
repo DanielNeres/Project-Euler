@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    unsigned long long int contador = 20, divisor = 7, soma, i;
+    long long unsigned contador = 20, divisor = 7, soma, i;
 
     for(; contador > 0; contador--){
         soma = 0;
@@ -11,7 +11,7 @@ int main(){
             }
         }
         if(soma % divisor == 0){
-            printf("%d\n", contador);
+            printf("%llu\n", contador);
         }
     }
     return 0;
