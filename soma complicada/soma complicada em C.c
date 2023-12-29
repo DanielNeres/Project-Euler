@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
-int calcularsomadedivisores(int numero);
+unsigned long long calcularsomadedivisores(unsigned long long numero);
 
 int main(){
     unsigned long long Numero_colosso = 1000000000, soma = 0, i;
@@ -13,7 +12,7 @@ int main(){
     return 0;
 }
 
-int calcularsomadedivisores(int numero){
+unsigned long long calcularsomadedivisores(unsigned long long numero){
     unsigned long long soma = 0;
     unsigned long long i;
     soma += 1 + numero;
