@@ -8,7 +8,7 @@ int main(){
     for(i = divisor - 1; i < Numero_colosso; i++){
     soma += calcularsomadedivisores(i);
     }
-    printf("soma = %64lu\n", soma);
+    printf("soma = %I64u\n", soma);
     return 0;
 }
 
@@ -26,6 +26,6 @@ unsigned long long calcularsomadedivisores(unsigned long long numero){
             soma += i;
         }
     }
-    printf("somaLocal = %64lu\n", soma);
+    printf("somaLocal = %I64u\n", soma);
     return soma;
 }
